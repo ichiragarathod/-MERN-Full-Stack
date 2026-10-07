@@ -1,0 +1,98 @@
+===== ARITHMETIC OPERATORS =====
+a + b = 13
+a - b = 7
+a * b = 30
+a / b = 3.3333333333333335
+a % b = 1
+a ** b = 1000
+c++ = 5
+c after c++ = 6
+++c = 7
+d-- = 5
+d after d-- = 4
+--d = 3
+
+===== ASSIGNMENT OPERATORS =====
+x = 10
+x += 5  => 15
+x -= 3  => 12
+x *= 2  => 24
+x /= 4  => 6
+x %= 5  => 1
+x **= 3 => 1
+x <<= 1 => 2
+x >>= 1 => 1
+x >>>= 1=> 0
+x &= 7  => 0
+x ^= 3  => 3
+x |= 8  => 11
+y ??= 5 => 5
+z ||= 10 => 10
+w &&= 7 => 7
+
+===== COMPARISON OPERATORS =====
+10 == "10"  => true
+10 === "10" => false
+10 != "10"  => false
+10 !== "10" => true
+10 > 5      => true
+10 < 5      => false
+10 >= 10    => true
+10 <= 5     => false
+
+===== LOGICAL OPERATORS =====
+true && false => false
+true || false => true
+!true         => false
+
+===== NULLISH & OPTIONAL CHAINING =====
+nullVal ?? "default"  => default
+undefVal ?? "default" => default
+obj?.a?.b => 42
+obj?.c?.d => undefined
+
+===== TERNARY OPERATOR =====
+age >= 18 ? "Adult" : "Minor" => Adult
+
+===== BITWISE OPERATORS =====
+p & q   => 1
+p | q   => 7
+p ^ q   => 6
+~p      => -6
+p << 1  => 10
+p >> 1  => 2
+p >>> 1 => 2
+
+===== UNARY OPERATORS =====
++"5"           => 5
+-"5"           => -5
+!0             => true
+~5             => -6
+typeof "hello" => string
+void 0         => undefined
+after delete delObj.a => { b: 2 }
+
+===== RELATIONAL OPERATORS =====
+"a" in {a:1}        => true
+[1,2] instanceof Array => true
+
+===== SPREAD / REST =====
+spread arr2 => [ 1, 2, 3, 4, 5 ]
+rest sum(1,2,3) => 6
+
+===== COMMA OPERATOR =====
+(1,2,3) => 3
+
+===== GROUPING / ACCESS =====
+(2 + 3) * 4 => 20
+person.name    => Alice
+person["age"]  => 30
+
+===== OTHER KEYWORDS / OPERATORS =====
+new Person("Alice").greet() => Hello, Alice
+super => Hello, Bob Grade: A
+yield => 1 2 3
+
+===== DEMO COMPLETE =====
+await => 42
+import() => dynamic import works (fs module loaded)
